@@ -14,40 +14,7 @@
 <div class="container-fluid">
 
 
-<nav class="navbar navbar-default">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
-      </button>
-    <!--  <a class="navbar-brand" href="#">a</a>-->
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav">
-        <li><a href="index.html">Home</a></li>
-        <li class="dropdown" >
-          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Services<span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Stem Cell</a></li>
-            <li><a href="#">Prolo Therapy</a></li>
-            <li><a href="#">PRP Therapy</a></li>
-			<li class="active"><a href="autism.html">Autism</a></li>
-          </ul>
-        </li>
-        <li><a href="#">References</a></li>
-        <li><a href="#">Doctor</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="#">Research</a></li>		
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-     <!--     <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li> -->
-      <!--    <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li> -->
-      </ul>
-    </div>
-  </div>
-</nav>
+<?php include 'header.php';?>
   
   <div class="container-fluid">
     <!-- Control the column width, and how they should appear on different devices -->
@@ -65,13 +32,13 @@
 
     <div class="row">
       <div class="col-sm-4" ></div>
-	  <div class="col-sm-4" ><H1>Treating Autism with Stem Cells</H1><h4>Restorative Medicine rebuilds your joint millions of cells at a time.<h4></div>
+	  <div class="col-sm-4" ><H1>Get Your Life Back</H1><h4>Restorative Medicine rebuilds your joint millions of cells at a time.<h4></div>
 	  <div class="col-sm-4" ></div>
     </div>
     <div class="row">
       <div class="col-sm-4" ></div>
 	  <div class="col-sm-4" >
-	  <iframe  class="video" src="https://www.youtube.com/embed/MsveTqspC4g" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+	  <iframe  class="video" src="https://www.youtube.com/embed/1ukL59ofysw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 	  </div> 
       <div class="col-sm-4" > 
 	  	 <img width="150px" height= "auto" src="img/golf.jpeg">	  
@@ -102,29 +69,34 @@ fax: (888)880-8230<br>
 email: service@stemellscientific.com<br>
 or sign up here:
 </div>
-<form>
       <div class="col-sm-4" >
-<div class="form-group">
-  <label for="usr">Your Name:</label>
-  <input type="text" class="form-control" id="patient">
-</div>
-<div class="form-group">
-  <label for="pwd">Email Address:</label>
-  <input type="text" class="form-control" id="patientEmail">
-</div>
-<div class="form-group">
-  <label for="pwd">Phone Number:</label>
-  <input type="text" class="form-control" id="patientPhone">
-</div>
-<div class="form-group">
-  <label for="pwd">Your Interest:</label>
-  <input type="text" class="form-control" id="patientPhone">
-</div>
-<div class="form-group">
-  <button type="submit" class="btn btn-primary">Submit</button>
-</div>
-</form>
+The doctors at Stem Cell Scientific specializes in integrative treatment of joint pain and systemic disease using advanced technology including stem cell therapy, prolotherapy, protein rich plasma, and human growth hormone adjunctive therapy.<br>
+<br>
+<br> 
 
+Doctors: All of our medical providers are licensed physicians with specialized training n their fields.<br>
+<br>
+Scientific: We are committed to applying science for the improvement of mankind<br>
+<br>
+Integrative: We approach and treat the human body as an entire system<br>
+<br>
+Stem Cell therapy: No-abortion umbilical cord stem cells are full of life and vitality.  Stem cels are an important part of the bodies healing process because stem cells can adapt to heal and replace almost any kind of tissue needed. Once you have used up your natural supply of stem cells in a certain area you are likely to experience degenerative disease. <br>
+<br>
+Prolotherapy: Treatment that often causes loose ligaments and connective tissue to tighten up and gain strength.<br>
+<br>
+Protein Rich Plasma: PRP is not stem cell therapy but used along with stem cell therapy to support joint healing<br>
+<br>
+Human Growth Hormone: HGH is an important hormone that support the healing process.<br>
+<br>
+Advanced Technology: Stem cell therapy is seen by many as a modern miracle.  Our doctors often combine stem cell therapy, prolotherapy, human growth hormone adjunctive for better fast, more complete and lasting healing.<br>
+<br>
+<br> 
+
+Contact us now and see how you can get your life back<br>
+<br>
+<br>
+Larry Farris<br>
+480-993-5513
 </div>
 </div>
 </div>

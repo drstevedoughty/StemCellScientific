@@ -1,4 +1,7 @@
 <?php
+session_start();
+?>
+<?php
 
 $hostname = "localhost:3306";
 $username = "stem_site";
@@ -35,11 +38,11 @@ if(isset($_POST['submit'])) {
     }
 
 	echo "end";
-	
+$_SESSION["alert"] = "Thanks for your interest";	
 mysqli_close($dbconnect);
 }
 
-header("Location: http://localhost/git/stemcellscientific/index.html?Alert=Yes");
+header("Location: http://localhost/git/stemcellscientific/index.php?Alert=Yes");
 die();
 
 ?>

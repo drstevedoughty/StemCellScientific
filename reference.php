@@ -13,41 +13,7 @@
 
 <div class="container-fluid">
 
-
-<nav class="navbar navbar-default">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
-      </button>
-    <!--  <a class="navbar-brand" href="#">a</a>-->
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav">
-        <li><a href="index.html">Home</a></li>
-        <li class="dropdown">
-          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Services<span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Stem Cell</a></li>
-            <li><a href="#">Prolo Therapy</a></li>
-            <li><a href="#">PRP Therapy</a></li>
-			<li><a href="autism.html">Autism</a></li>
-          </ul>
-        </li>
-        <li class="active"><a href="#">References</a></li>
-        <li><a href="doctor.html">Doctor</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="#">Research</a></li>		
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-     <!--     <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li> -->
-      <!--    <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li> -->
-      </ul>
-    </div>
-  </div>
-</nav>
+<?php include 'header.php';?>
   
   <div class="container-fluid">
     <!-- Control the column width, and how they should appear on different devices -->
