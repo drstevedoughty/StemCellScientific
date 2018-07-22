@@ -44,11 +44,11 @@ session_start();
     <div class="row">
       <div class="col-sm-2" ></div>
 	  <div class="col-sm-8" style="text-align:center" >
-	  <iframe  class="video" src="https://www.youtube.com/embed/1ukL59ofysw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-	  </div> 
-      <div class="col-sm-4" >   
-	  </div>
-    </div>
+	  
+	  <div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item video" src="https://www.youtube.com/embed/1ukL59ofysw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+	  </div></div> </div>
+    
     <!-- Or let Bootstrap automatically handle the layout -->
      <!--    <div class="row">
      <!--      <div class="col-sm" style="background-color:yellow;">25%</div>
