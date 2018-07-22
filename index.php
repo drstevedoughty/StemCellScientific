@@ -15,7 +15,7 @@ session_start();
    
 </script>
 </head>
-  <body style="background:linear-gradient(15deg, beige, white);" font="face:Calibri">
+  <body style="background:linear-gradient(15deg, white,BEIGE); max-width:950px" font="face:Calibri">
 
 <?php include 'header.php';?>
 
@@ -24,11 +24,12 @@ session_start();
   echo "<button type=\"button\" class=\"close\" data-dismiss=\"alert\">&times;</button>";
   echo "Thanks for reaching out.  We will contact you soon!";
   echo "</div>";  
-
+  unset($_SESSION['alert']);
 } 
 ?>
   
-  
+
+
    
 	<div class="container-fluid">
     <div class="row">
@@ -68,53 +69,37 @@ session_start();
 	    <br>
 
 	 <div class="row">
-	   <div class="col-sm-2" >
+	   <div class="col-sm-4" >
+<img class="img-rounded" width="250px" height="auto" src="img/construction.jpg"> <br>  	   
        </div>
 
-	   <div class="col-sm-8" style="text-align:center">
-	   
-<img width="250px" height="auto" src="img/construction.jpg"> <br>  
+	   <div class="col-sm-7" style="text-align:left">
+	   I work in the construction trades, I value supporting my family, and seeing the results of my labor every day.  But join pain was getting so bad I was afraid I would not be able to work.
+Stem cell treatments helped me get my life back
 </div>
 </div>
-	 <div class="row">
-	   <div class="col-sm-2" >
-      </div>
-
-	   <div class="col-sm-8">
-
-
-<br>
-I work in the construction trades, I value supporting my family, and seeing the results of my labor every day.  But join pain was getting so bad I was afraid I would not be able to work.
-Stem cell treatments helped me get my life back<BR>
-     </div></div><br><br>
-	 <div class="row"><div class="col-sm-2" ></div><div class="col-sm-8" style="text-align:center">
-       <img width="250px" height="auto" src="img/walkwchild.jpg"><br>  
+	<br><br>	
+	 <div class="row"><div class="col-sm-4" >
+       <img class="img-rounded" width="250px" height="auto" src="img/walkwchild.jpg"><br>  
+	 </div><div class="col-sm-7" style="text-align:center">
+	 I like visiting my grandchildren, travel, and being active. But joint pain was getting so bad I couldn’t enjoy the people I love most.
+Stem cell treatments helped me get my life back
      </div></div>
-	 <div class="row"><div class="col-sm-2" ></div><div class="col-sm-8">
-     <BR>
-I like visiting my grandchildren, travel, and being active. But joint pain was getting so bad I couldn’t enjoy the people I love most.
-Stem cell treatments helped me get my life back<BR>
-     </div></div><br><br>
-	 <div class="row"><div class="col-sm-2" ></div><div class="col-sm-8" style="text-align:center">
-       <img width="250px" height="auto" src="img/athlete.jpg"><br>  
-     </div></div>
-	 <div class="row"><div class="col-sm-2" ></div><div class="col-sm-8">
-     <BR>
+	 <BR><BR>
+	 <div class="row"><div class="col-sm-4" >
+       <img class="img-rounded" width="250px" height="auto" src="img/athlete.jpg"><br>  	 
+	 </div><div class="col-sm-7">
 My daughter was offered sports scholarships from top ranked schools.  Then an injured joint wouldn’t heal and all her dreams seemed at risk.
-Stem cell treatments helped my daughter get her life back<BR>
-    </div></div><br><br>
-	 <div class="row"><div class="col-sm-2" ></div><div class="col-sm-8" style="text-align:center">
-       <img width="250px" height="auto" src="img/golf.jpeg"><br>  
-     </div></div>
-	 <div class="row"><div class="col-sm-2" ></div><div class="col-sm-8">
-     <BR>
+Stem cell treatments helped my daughter get her life back<BR>	 
+     </div></div><br><br>
+	
+<HR>
+	 <div class="row"><div class="col-sm-1" ></div><div class="col-sm-10" style="text-align:center">
 Let us show you our innovative, safe, and effective approaches to treating joint pain and other degenerative disease without surgery.<BR>
 <BR>
 We are glad to help you make an informed decisions with absolutely no obligation.<BR>
 So contact us now and discover how you can get your life back.<BR>
-<BR>
-</div></div>
-	 <div class="row"><div class="col-sm-2" ></div><div class="col-sm-8" style="text-align:center">  
+
      </div></div>
 	 <div class="row"><div class="col-sm-2" ></div><div class="col-sm-8">
      <BR>
@@ -125,17 +110,15 @@ So contact us now and discover how you can get your life back.<BR>
 	   
     </div>
 
-<hr>
-<br><br>
+<br>
 
   <div class="row">
 	<div class="col-sm-4" >
 <strong>Reach out to us!</strong><br>
-phone: (888)339-4541<br>
-text: (435)669-9577<br>
+phone: (435)313-0432<br>
+text: (435)313-0432<br>
 fax: (888)880-8230<br>
-email: service@stemellscientific.com<br>
-or sign up here:
+email: service@stemellscientific.com
     </div>
     <div class="col-sm-4" >
 <?php include 'leadform.php';?>

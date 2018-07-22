@@ -17,7 +17,7 @@ echo "          <label for=\"pwd\">Your Interest:</label>                       
 echo "          <input type=\"text\" class=\"form-control\" name=\"comment\">                       ";
 echo "        </div>                                                                          ";
 echo "        <div class=\"form-group\">                                                        ";
-echo "          <button type=\"submit\" name=\"submit\" class=\"btn btn-primary\">Submit</button>   ";
+echo "          <button type=\"submit\" name=\"submit\" class=\"btn btn-danger\">Submit</button>   ";
 echo "        </div>                                                                          ";
 echo "      </form>                                                                           ";
 ?>	  

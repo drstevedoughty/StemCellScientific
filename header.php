@@ -1,5 +1,5 @@
 <?php
-echo "<nav class=\"navbar navbar-default                                                                                   ";
+echo "<nav class=\"navbar navbar-inverse\">                                                                                   ";
 echo "  <div class=\"container-fluid\">                                                                                    ";
 echo "    <div class=\"navbar-header\">                                                                                    ";
 echo "      <button type=\"button\" class=\"navbar-toggle\" data-toggle=\"collapse\" data-target=\"#myNavbar\">            ";
@@ -37,14 +37,14 @@ echo "</nav>  ";
 echo "<div class=\"container-fluid\">                                                            ";
 echo "   <!-- Control the column width, and how they should appear on different devices -->      ";
 echo "   <div class=\"row\">                                                                     ";
-echo "     <div class=\"col-sm-6\" >                                                             ";
-echo "	  	 <img width=\"150px\" height= \"auto\" src=\"img/stemlogo.png\">                     ";
+echo "     <div class=\"col-sm-9\" >                                                             ";
+echo "      <img src=\"img/stemcellscientific.png\"  class=\"img-fluid\" style=\"max-width:100%\"> ";
 echo "     </div>                                                                                ";
-echo "     <div class=\"col-sm-6\" align=\"right\" >                                             ";
-echo "	     <H2 style=\"color:#ff0066\">                                                               ";
-echo "       <img src=\"img/phone.png\" width=\"30px\" class=\"icon\">                           ";
-echo "       (435)669-9577                                                                       ";
-echo "	     </H2>                                                                                ";
+echo "     <div class=\"col-sm-3\" align=\"left\" >                                             ";
+echo "	     <button type=\"button\" class=\"btn btn-danger\"><img src=\"img/whitephone.png\" width=\"20px\" class=\"icon\">(435)313-0432</button>                                                               ";
+echo "                                  ";
+echo "                                                                              ";
+echo "	                                                                                     ";
 echo "     </div>                                                                                ";
 echo "   </div>                                                                                  ";
 echo "</div>                                                                                  ";

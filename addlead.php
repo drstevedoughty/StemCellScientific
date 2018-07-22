@@ -35,6 +35,8 @@ if(isset($_POST['submit'])) {
         die('An error occurred when submitting your review.');
     } else {
       echo "Thanks for your review.";
+	  $_SESSION['alert'] = "Thank you for your interest";
+	  
     }
 
 	echo "end";
