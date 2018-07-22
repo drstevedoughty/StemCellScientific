@@ -35,7 +35,7 @@ session_start();
     <div class="row">
       <div class="col-sm-2" ></div>
 	  <div class="col-sm-8" style="text-align:center" >
-	  <H1>Get Your Life Back</H1>
+	  <H2>Get Your Life Back</H2>
 	  <h4>Get out of pain without drugs or surgery</h4>
       <h4>Overcome debilitating illness </h4>
 </div>
@@ -118,7 +118,8 @@ So contact us now and discover how you can get your life back.<BR>
 phone: (435)313-0432<br>
 text: (435)313-0432<br>
 fax: (888)880-8230<br>
-email: service@stemellscientific.com
+email: info@stemellscientific.com
+<br>
     </div>
     <div class="col-sm-4" >
 <?php include 'leadform.php';?>
