@@ -7,7 +7,9 @@ session_start();
   <title>Stem Cell Scientific</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script type="text/javascript"> 
@@ -15,7 +17,7 @@ session_start();
    
 </script>
 </head>
-  <body style="background:linear-gradient(15deg, white,BEIGE); max-width:950px" font="face:Calibri">
+  <body style="background:linear-gradient(15deg, white,BEIGE);" font="face:Calibri">
 
 <?php include 'header.php';?>
 
@@ -28,7 +30,13 @@ session_start();
 } 
 ?>
   
+<div id="box-one">
+<p>This is box one.</p>
+</div> 
 
+<div id="box-two">
+<p>This is box two.</p>
+</div>
 
    
 	<div class="container-fluid">
@@ -68,6 +76,7 @@ session_start();
     <br>
 	    <br>
 
+     <div class="zzz">
 	 <div class="row">
 	   <div class="col-sm-4" >
 <img class="img-rounded" width="250px" height="auto" src="img/construction.jpg"> <br>  	   
