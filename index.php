@@ -53,9 +53,12 @@ session_start();
 	   </ul>
 	   </div>
 	</nav>
+	
+	<img src="img/wave.png" width="100%" >
 <br>
 <div class="container-fluid">                                                            
-<!-- Control the column width, and how they should appear on different devices -->      
+<!-- Control the column width, and how they should appear on different devices -->
+<br>      
 <div class="row">                                                                     
 <div class="col-sm-9" >                                                             
 <img src="img/logoz.png"  class="img-fluid" style="max-width:60px">
@@ -63,7 +66,7 @@ session_start();
 </div>                                                                                
 <div class="col-sm-3" align="left" >     
 <br>                                        
-<button type="button" class="btn btn-danger"><img src="img/whitephone.png" width="20px" class="icon">(435)313-0432</button> 
+<button type="button" class="btn btn-danger" style="height=100%; background-colorcolor:#ed2939;"><img src="img/whitephone.png" width="20px" class="icon"> (435)313-0432</button> 
 </div>                                                                                
 </div>                                                                                  
 </div>         	
@@ -79,16 +82,18 @@ session_start();
 ?>
   
 <br>
-
-   
+<br>
+<br>
 	<div class="container-fluid">
     <div class="row">
-      <div class="col-sm-2" ></div>
-	  <div class="col-sm-8" style="text-align:center" >
-	  <H1 style="color:#404040;">Get Your Life Back</H1>
-
+      <div class="col-sm-1" ></div>
+	  <div class="col-sm-11" style="text-align:center" >
+	  <H1 style="font-size:6vw" style="color:#404040;">Get Your Life Back</H1>
+<br>
 	  <h4>Get out of pain without drugs or surgery</h4>
       <h4>Overcome debilitating illness </h4>
+	  <br>
+
 </div>
 	  <div class="col-sm-4" ></div>
     </div>
@@ -97,7 +102,7 @@ session_start();
 	  <div class="col-sm-8" style="text-align:center" >
 	  
 	  <div class="embed-responsive embed-responsive-16by9">
-  <iframe class="embed-responsive-item video" src="https://www.youtube.com/embed/1ukL59ofysw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  <iframe class="embed-responsive-item video" style="color:#404040;" src="https://www.youtube.com/embed/1ukL59ofysw" frameborder="1" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 	  </div></div> </div>
     
     <!-- Or let Bootstrap automatically handle the layout -->
